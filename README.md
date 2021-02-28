@@ -24,7 +24,7 @@ The goals / steps of this project are the following:
 Removal of camera lens distortion:
 ![Lanes Image](./output_images/undistorted.png)
 
-Image thresholding using a combination of Sobel gradients and saturation
+Converting image to a top-view perspective and thresholding using a combination of Sobel gradients and saturation
 ![Lanes Image](./output_images/thresh.png)
 
 Curve fitting to obtain lanes and the lane region
