@@ -21,5 +21,8 @@ The goals / steps of this project are the following:
 **The Pipeline**
 ---
 ![Lanes Image](./output_images/undistorted.png)
+![Lanes Image](./output_images/thresh.png)
+![Lanes Image](./output_images/lane_region.png)
+![Lanes Image](./output_images/result.png)
 
 
