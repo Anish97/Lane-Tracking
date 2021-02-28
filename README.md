@@ -20,9 +20,20 @@ The goals / steps of this project are the following:
 
 **The Pipeline**
 ---
+
+Removal of camera lens distortion:
 ![Lanes Image](./output_images/undistorted.png)
+
+Image thresholding using a combination of Sobel gradients and saturation
 ![Lanes Image](./output_images/thresh.png)
+
+Curve fitting to obtain lanes and the lane region
 ![Lanes Image](./output_images/lane_region.png)
+
+Annotation with radius of curvature of lanes and the distance of vehicle from center of lanes:
 ![Lanes Image](./output_images/result.png)
 
+**Execution**
+---
 
+run tracklanes.ipynb on jupyter notebook
