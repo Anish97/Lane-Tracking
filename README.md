@@ -39,7 +39,8 @@ Annotation with radius of curvature of lanes and the distance of vehicle from ce
 **Result**
 ---
 
-![Lanes Video](./project_video.mp4)
+[![Lanes Video](./examples/example_output.jpg)](./project_video_output.mp4) "Lane Tracking")
+![Lanes Video](./project_video_output.mp4)
 
 **Execution**
 ---
