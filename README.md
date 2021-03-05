@@ -24,7 +24,10 @@ The goals / steps of this project are the following:
 Removal of camera lens distortion:
 ![Lanes Image](./output_images/undistorted.png)
 
-Converting image to a top-view perspective and thresholding using a combination of Sobel gradients and saturation
+Verification of perspective transform matrix:
+![Lanes Image](./output_images/perspectiveCheck.png)
+
+Converting image to top-view perspective and thresholding using a combination of Sobel gradients and saturation
 ![Lanes Image](./output_images/thresh.png)
 
 Curve fitting to obtain lanes and the lane region
@@ -32,6 +35,11 @@ Curve fitting to obtain lanes and the lane region
 
 Annotation with radius of curvature of lanes and the distance of vehicle from center of lanes:
 ![Lanes Image](./output_images/result.png)
+
+**Result**
+---
+
+![Lanes Video](./project_video.mp4)
 
 **Execution**
 ---
